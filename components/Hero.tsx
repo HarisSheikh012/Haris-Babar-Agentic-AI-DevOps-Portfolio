@@ -24,17 +24,17 @@ const Hero: React.FC = () => {
         <div className="lg:col-span-7">
           <div className="mono text-[#ff4d00] mb-4 flex items-center gap-2">
             <span className="w-2 h-2 bg-[#ff4d00] animate-pulse"></span>
-            ~/haris-babar/cloud-devops-enthusiast
+            ~/haris-babar/software-engineer-ai-fullstack
           </div>
 
           <h1 className="text-4xl md:text-6xl font-bold tracking-tighter leading-tight mb-6">
-            Agentic AI & DevOps. <br />
-            <span className="text-white/40 text-3xl md:text-5xl">Cloud & DevOps Enthusiastic Engineer.</span>
+            Software Engineer. <br />
+            <span className="text-white/40 text-3xl md:text-5xl">AI & Full Stack.</span>
           </h1>
 
           <p className="max-w-2xl text-base md:text-lg text-white/60 mb-10 leading-relaxed font-light">
             Building the future of automation with a focus on scalable agentic systems.
-            Designing intelligent multi-agent architectures integrated with robust cloud infrastructure as a Cloud & DevOps Enthusiastic engineer.
+            Designing intelligent multi-agent architectures, robust cloud infrastructure, and full-stack solutions as a Software Engineer (AI & Full Stack).
           </p>
 
           <div className="flex flex-wrap gap-4">
@@ -78,7 +78,7 @@ const Hero: React.FC = () => {
                     {HARIS_CV.name}
                   </h2>
                   <p className="text-[10px] md:text-xs font-bold tracking-[0.2em] text-[#a0a0a0] uppercase">
-                    Islamabad, Pakistan
+                    Multan, Pakistan
                   </p>
                 </div>
               </div>

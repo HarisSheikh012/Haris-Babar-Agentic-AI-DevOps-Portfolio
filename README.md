@@ -1,20 +1,22 @@
-# Haris Babar | Agentic AI & DevOps Portfolio
+# Haris Babar | Software Engineer (AI & Full Stack) Portfolio
 
-Personal portfolio showcasing expertise in Cloud Infrastructure, DevOps, and Agentic AI development.
+Personal portfolio showcasing expertise in AI & Full Stack development, Cloud Infrastructure, and Agentic AI systems.
 
 ## 🚀 Overview
 
-I am a **Cloud & DevOps Enthusiastic Engineer** and **Agentic AI Developer** dedicated to building the next generation of autonomous business systems. My work focuses on merging robust cloud infrastructure with advanced agentic reasoning to create scalable, intelligent automation.
+I am a **Software Engineer (AI & Full Stack)** dedicated to building the next generation of autonomous business systems. My work focuses on merging scalable full-stack web applications with advanced agentic reasoning and cloud infrastructure.
 
 ## 🛠 Tech Stack
 
-- **Agentic AI**: Groq AI, Google ADK, MCP, Python Agents
-- **Cloud & DevOps**: Azure, Docker, GitHub Actions, CI/CD, Terraform
-- **Core Dev**: React, TypeScript, Node.js, Python
-- **Networking**: CCNA, IP Protocols, System Security
+- **Cloud**: AWS (EC2, S3, Lambda, CloudFormation, IaC, CI/CD), Networking, Linux, Docker
+- **Programming**: Python, JavaScript
+- **AI Agentic**: Open-source LLM, MCP, Agentic frameworks, Models, Automation
+- **Web/Full-Stack**: HTML, CSS, React.js, TypeScript, Node.js, Express.js, SQL, MongoDB
+- **Tools & Collaboration**: Git, GitHub, Prompt Engineering
 
 ## 💻 Projects
 
+- **FitForge**: Production-oriented, multi-tenant gym management SaaS platform (React, Node.js, PostgreSQL, Prisma, Docker).
 - **RedVapt**: AI-powered penetration testing platform.
 - **Multiagent Business Project**: Autonomous decision-making systems using MCP.
 - **Emotion Recognition**: NLP-based emotion classification.
@@ -31,7 +33,7 @@ I am a **Cloud & DevOps Enthusiastic Engineer** and **Agentic AI Developer** ded
    Create a `.env.local` file:
    ```env
    VITE_GROQ_API_KEY=your_key_here
-   VITE_GROQ_MODEL=llama-3.1-8b-instant
+   VITE_GROQ_MODEL=openai/gpt-oss-120b
    ```
 4. **Run Development Server**
    ```bash

@@ -9,7 +9,7 @@ const ProjectGrid: React.FC = () => {
         <div className="flex justify-between items-end mb-16">
           <div>
             <h2 className="text-3xl font-bold mono uppercase tracking-widest text-white/40 mb-4">Showcase Projects</h2>
-            <p className="text-white/60">Practical applications of Agentic AI and enterprise-grade DevOps.</p>
+            <p className="text-white/60">Practical applications of Agentic AI, full-stack systems, and cloud infrastructure.</p>
           </div>
           <div className="hidden md:block h-px flex-1 bg-white/10 mx-10 mb-4"></div>
         </div>
@@ -32,10 +32,15 @@ const ProjectGrid: React.FC = () => {
                 {project.description}
               </p>
               
-              <div className="mono text-sm text-white/40 flex items-center gap-2">
+              <a
+                href={project.link || HARIS_CV.links.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mono text-sm text-white/40 hover:text-[#ff4d00] flex items-center gap-2 transition-colors w-fit cursor-pointer"
+              >
                 <span>View Project Details</span>
-                <span className="opacity-0 group-hover:opacity-100 transition-opacity">{"->"}</span>
-              </div>
+                <span className="opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all">→</span>
+              </a>
             </div>
           ))}
         </div>

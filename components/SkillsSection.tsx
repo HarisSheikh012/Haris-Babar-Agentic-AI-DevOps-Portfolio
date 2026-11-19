@@ -8,7 +8,7 @@ const SkillsSection: React.FC = () => {
       <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl font-bold mono mb-12 uppercase tracking-widest text-white/40">Core Stack</h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-px bg-white/10 border border-white/10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-px bg-white/10 border border-white/10">
           {HARIS_CV.skills.map((skill, idx) => (
             <div key={idx} className="bg-black p-8 group hover:bg-white/[0.02] transition-colors">
               <h3 className="mono text-[#ff4d00] mb-6 text-sm">{skill.category}</h3>

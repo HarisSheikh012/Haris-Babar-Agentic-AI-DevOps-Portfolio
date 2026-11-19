@@ -25,10 +25,10 @@ const App: React.FC = () => {
   return (
     <div className="min-h-screen grid-bg selection:bg-[#ff4d00] selection:text-white">
       <Navbar />
-      
+
       <main>
         <Hero />
-        
+
         {/* Sliding Tech Ecosystem Section */}
         <div className="py-12 border-y border-white/10 bg-black overflow-hidden relative group">
           <div className="max-w-7xl mx-auto px-6 relative z-10 mb-6">
@@ -36,12 +36,12 @@ const App: React.FC = () => {
               Core Technologies & Ecosystem
             </p>
           </div>
-          
+
           <div className="flex whitespace-nowrap marquee-container">
             <div className="flex animate-marquee hover:[animation-play-state:paused] gap-12 items-center">
               {marqueeTools.map((tool, idx) => (
                 <div key={idx} className="flex items-center gap-4">
-                  <span 
+                  <span
                     className="text-lg md:text-xl font-bold mono text-white/40 hover:text-white transition-colors cursor-default uppercase tracking-widest"
                   >
                     {tool}
@@ -78,8 +78,8 @@ const App: React.FC = () => {
                 <span className="mono font-bold uppercase tracking-[0.2em] text-2xl">Haris Babar</span>
               </div>
               <p className="text-white/40 max-w-sm mb-8 leading-relaxed text-sm">
-                Cloud & DevOps Enthusiastic engineer building the next generation of autonomous business systems. 
-                Merging cloud infrastructure with advanced agentic reasoning.
+                Software Engineer specializing in AI & Full Stack, building the next generation of autonomous business systems.
+                Merging scalable full-stack web applications with advanced agentic reasoning and cloud infrastructure.
               </p>
               <div className="flex flex-wrap gap-6">
                 <a href={HARIS_CV.links.github} target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-[#ff4d00] transition-colors mono text-xs uppercase tracking-widest border-b border-white/10 pb-1">GitHub</a>
@@ -87,7 +87,7 @@ const App: React.FC = () => {
                 <a href={`mailto:${HARIS_CV.email}`} className="text-white/40 hover:text-[#ff4d00] transition-colors mono text-xs uppercase tracking-widest border-b border-white/10 pb-1">Email</a>
               </div>
             </div>
-            
+
             <div>
               <h4 className="mono text-xs text-white/30 uppercase mb-8 tracking-widest font-bold">Navigation</h4>
               <ul className="space-y-4 text-white/60 text-sm font-medium">
@@ -111,7 +111,7 @@ const App: React.FC = () => {
                 </li>
                 <li className="flex flex-col gap-1">
                   <span className="text-[10px] text-white/20 uppercase mono">Location</span>
-                  <span className="text-sm mono">Islamabad, Pakistan</span>
+                  <span className="text-sm mono">Multan, Pakistan</span>
                 </li>
               </ul>
             </div>
@@ -119,7 +119,7 @@ const App: React.FC = () => {
           <div className="max-w-7xl mx-auto mt-24 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] mono text-white/20 uppercase tracking-widest">
             <span>© 2026 Haris Babar. All rights reserved.</span>
             <div className="flex gap-4">
-              <span>Cloud & DevOps Enthusiastic Engineer</span>
+              <span>Software Engineer (AI & Full Stack)</span>
             </div>
           </div>
         </footer>
